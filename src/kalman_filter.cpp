@@ -1,3 +1,6 @@
+// kalman_filter.cpp- defines the predict function, the update function for lidar, and the update function for radar
+//
+
 #include "kalman_filter.h"
 
 using Eigen::MatrixXd;

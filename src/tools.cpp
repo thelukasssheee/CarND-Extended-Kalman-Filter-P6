@@ -1,3 +1,5 @@
+// tools.cpp- function to calculate RMSE and the Jacobian matrix
+
 #include <iostream>
 #include "tools.h"
 

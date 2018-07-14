@@ -1,3 +1,9 @@
+// FusionEKF.cpp - initializes the filter, calls the predict function, calls the update function
+//
+// FusionEKF.cpp takes the sensor data and initializes variables and updates variables. The Kalman filter equations
+// are not in this file. FusionEKF.cpp has a variable called ekf_, which is an instance of a KalmanFilter class.
+// The ekf_ will hold the matrix and vector values. You will also use the ekf_ instance to call the predict and update equations.
+
 #include "FusionEKF.h"
 #include "tools.h"
 #include "Eigen/Dense"
@@ -35,7 +41,7 @@ FusionEKF::FusionEKF() {
   TODO:
     * Finish initializing the FusionEKF.
     * Set the process and measurement noises
-  */
+   */
 
 
 }

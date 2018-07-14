@@ -1,3 +1,9 @@
+// Communicates with the Term 2 Simulator receiving data measurements, calls a function to run
+// the Kalman filter, calls a function to calculate RMSE.
+//
+// Main.cpp reads in the data and sends a sensor measurement to FusionEKF.cpp
+
+
 #include <uWS/uWS.h>
 #include <iostream>
 #include "json.hpp"
