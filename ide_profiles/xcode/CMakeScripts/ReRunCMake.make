@@ -5,12 +5,12 @@ empty:=
 space:= $(empty) $(empty)
 spaceplus:= $(empty)\ $(empty)
 
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/3.11.4/CMakeCCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/3.11.4/CMakeCXXCompiler.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/3.11.4/CMakeSystem.cmake))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/feature_tests.c))
-TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/feature_tests.cxx))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/CMakeLists.txt))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/CMakeFiles/3.11.4/CMakeCCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/CMakeFiles/3.11.4/CMakeCXXCompiler.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/CMakeFiles/3.11.4/CMakeSystem.cmake))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/CMakeFiles/feature_tests.c))
+TARGETS += $(subst $(space),$(spaceplus),$(wildcard /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/CMakeFiles/feature_tests.cxx))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCCompiler.cmake.in))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCCompilerABI.c))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/CMakeCInformation.cmake))
@@ -98,5 +98,5 @@ TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.11
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/Platform/Darwin.cmake))
 TARGETS += $(subst $(space),$(spaceplus),$(wildcard /usr/local/Cellar/cmake/3.11.4/share/cmake/Modules/Platform/UnixPaths.cmake))
 
-/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/CMakeFiles/cmake.check_cache: $(TARGETS)
-	/usr/local/Cellar/cmake/3.11.4/bin/cmake -H/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project -B/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode
+/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/CMakeFiles/cmake.check_cache: $(TARGETS)
+	/usr/local/Cellar/cmake/3.11.4/bin/cmake -H/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6 -B/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode

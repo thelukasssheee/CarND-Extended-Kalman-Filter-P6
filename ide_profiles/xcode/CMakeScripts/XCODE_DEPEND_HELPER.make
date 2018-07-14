@@ -8,23 +8,23 @@ default:
 # link.  This forces Xcode to relink the targets from scratch.  It
 # does not seem to check these dependencies itself.
 PostBuild.ExtendedKF.Debug:
-/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/Debug/ExtendedKF:
-	/bin/rm -f /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/Debug/ExtendedKF
+/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/Debug/ExtendedKF:
+	/bin/rm -f /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/Debug/ExtendedKF
 
 
 PostBuild.ExtendedKF.Release:
-/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/Release/ExtendedKF:
-	/bin/rm -f /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/Release/ExtendedKF
+/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/Release/ExtendedKF:
+	/bin/rm -f /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/Release/ExtendedKF
 
 
 PostBuild.ExtendedKF.MinSizeRel:
-/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/MinSizeRel/ExtendedKF:
-	/bin/rm -f /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/MinSizeRel/ExtendedKF
+/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/MinSizeRel/ExtendedKF:
+	/bin/rm -f /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/MinSizeRel/ExtendedKF
 
 
 PostBuild.ExtendedKF.RelWithDebInfo:
-/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/RelWithDebInfo/ExtendedKF:
-	/bin/rm -f /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode/RelWithDebInfo/ExtendedKF
+/Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/RelWithDebInfo/ExtendedKF:
+	/bin/rm -f /Users/lukasss/Coding/CarND-Extended-Kalman-Filter-Project-P6/ide_profiles/xcode/RelWithDebInfo/ExtendedKF
 
 
 
