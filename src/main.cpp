@@ -2,7 +2,6 @@
 // the Kalman filter, calls a function to calculate RMSE.
 //
 // Main.cpp reads in the data and sends a sensor measurement to FusionEKF.cpp
-// Test
 
 
 #include <uWS/uWS.h>
