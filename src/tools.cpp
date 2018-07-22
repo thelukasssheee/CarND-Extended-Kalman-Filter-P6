@@ -11,6 +11,9 @@ Tools::Tools() {}
 
 Tools::~Tools() {}
 
+
+
+
 // #################
 // CALCULATE RMSE
 // #################
@@ -49,10 +52,11 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
 }
 
 
+
 // #################
 // CALCULATE JACOBIAN
 // #################
-MatrixXd Tools::CalculateJacobian(const VectorXd& x_state) {
+MatrixXd Tools::CalculateJacobian(const VectorXd &x_state) {
   // Define variable to hold Jacobian matrix
   MatrixXd Hj(3,4);
   
